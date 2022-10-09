@@ -1,0 +1,29 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "budibase-youtube-embed",
+    "friendlyName": "budibase-youtube-embed",
+    "description": "An amazing Budibase component!",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "urlString",
+        "label": "Youtube url"
+      },
+      {
+        "type": "number",
+        "key": "width",
+        "label": "Width",
+        "defaultValue": "640"
+      },
+      {
+        "type": "number",
+        "key": "height",
+        "label": "Height",
+        "defaultValue": "360"
+      }
+    ]
+  }
+}
